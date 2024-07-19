@@ -1,0 +1,140 @@
+/* Container Utility */
+.container {
+  width: 100%;
+  padding-right: 0.8rem;
+  padding-left: 0.8rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+/* btn Class Start */
+.btn {
+  display: inline-block;
+  padding: 1em 2em;
+  color: var(--white-color);
+  border-radius: 1rem 0.3rem 1rem 0.3rem;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 500ms;
+}
+
+.btn.primary {
+  background-color: var(--primary-color);
+}
+.btn.primary:is(:hover, :focus-visible) {
+  background-color: var(--primary-color-dark);
+  box-shadow: none;
+}
+
+.btn.secondary {
+  background-color: var(--secondary-color);
+}
+.btn.secondary:is(:hover, :focus-visible) {
+  background-color: var(--secondary-color-dark);
+  box-shadow: none;
+}
+/* btn Class End */
+
+/* section padding utility */
+.section {
+  --padding: clamp(2rem, 6vw, 5rem);
+  padding-top: var(--padding);
+  padding-bottom: var(--padding);
+}
+
+.section-sm {
+  --padding: clamp(1.25rem, 2.66vw, 2rem);
+  padding-top: var(--padding);
+  padding-bottom: var(--padding);
+}
+
+
+
+/* Flexbox Utilities */
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.center-x {
+  justify-content: center;
+}
+
+.center-y {
+  align-items: center;
+}
+
+.start-x {
+  justify-content: flex-start;
+}
+
+.start-y {
+  align-items: flex-start;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.no-shrink > * {
+  flex-shrink: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.content-between {
+  justify-content: space-between;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.gap-3 {
+  gap: 3rem;
+}

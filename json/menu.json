@@ -1,0 +1,50 @@
+[
+  {
+    "img": "/imgs/dish-2.png",
+    "name": "Lumpia with Sauce",
+    "description": "Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod tempor",
+    "price": 12
+  },
+  {
+    "img": "/imgs/dish-3.png",
+    "name": "Fish and Veggie",
+    "description": "Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod tempor",
+    "price": 10
+  },
+  {
+    "img": "/imgs/dish-4.png",
+    "name": "Tofu Chili",
+    "description": "Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod tempor",
+    "price": 15
+  },
+  {
+    "img": "/imgs/dish-5.png",
+    "name": "Egg and Cucumber",
+    "description": "Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod tempor",
+    "price": 12
+  },
+  {
+    "img": "/imgs/dish-6.png",
+    "name": "Cacke and Ice Cream",
+    "description": "Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod tempor",
+    "price": 14
+  },
+  {
+    "img": "/imgs/dish-7.png",
+    "name": "Beef Stew",
+    "description": "Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod tempor",
+    "price": 18
+  },
+  {
+    "img": "/imgs/dish-8.png",
+    "name": "Vegetable Stir Fry",
+    "description": "Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod tempor",
+    "price": 11
+  },
+  {
+    "img": "/imgs/dish-9.png",
+    "name": "Caesar Salad",
+    "description": "Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod tempor",
+    "price": 9
+  }
+]

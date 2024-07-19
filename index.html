@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon type svg -->
+  <link rel="icon" href="imgs/icon.svg" type="image/svg+xml">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/utils.css">
+
+  <!-- Scripts -->
+  <script src="src/main.js" defer></script>
+  <title>Restaurant</title>
+</head>
+
+<body>
+  <!-- Header Start -->
+  <header id="header" class="pg-header">
+    <div class="container flex">
+      <span class="logo flex">
+        <object type="image/svg+xml" data="imgs/icon.svg" width="48" height="48"></object>
+        <h3 id="app-name">Restaurant</h3>
+      </span>
+      <nav>
+        <ul class="main-nav flex">
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="#chef">Events</a>
+          </li>
+          <li>
+            <a href="#menu">Gallery</a>
+          </li>
+          <li>
+            <a href="#ratings">About</a>
+          </li>
+          <li>
+            <a href="#subscribe">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn primary">Book a table</button>
+    </div>
+  </header>
+  <!-- Header End -->
+  <main>
+    <!-- Hero Start -->
+    <section id="hero" class="hero container flex content-between start-y section">
+      <div class="hero-content">
+        <h1>We provide the best food for you</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+        <div class="btns">
+          <a href="#" class="btn secondary">Menu</a>
+          <a href="#" class="btn primary">Book a table</a>
+        </div>
+        <div class="sm-links flex gap-1">
+          <a href="#">
+            <svg viewBox="0 0 19 19" width="30">
+              <use href="#facebook" />
+            </svg>
+          </a>
+          <a href="#">
+            <svg viewBox="0 0 24 24" width="30">
+              <use href="#instagram" />
+            </svg>
+          </a>
+          <a href="#">
+            <svg viewBox="0 0 18 18" width="30">
+              <use href="#twitter" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-imgs">
+        <div class="clip-path"></div>
+        <img width="364" src="imgs/dish-1.png" alt="Special Dish">
+      </div>
+      <div class="wrapper">
+        <button id="prev" class="slider-button">
+          <svg viewBox="0 0 24 24" width="30" style="transform: rotateY(180deg);">
+            <use href="#next-icon" />
+          </svg>
+        </button>
+        <button id="next" class="slider-button">
+          <svg viewBox="0 0 24 24" width="30">
+            <use href="#next-icon" />
+          </svg>
+        </button>
+      </div>
+    </section>
+    <!-- Hero End -->
+    <!-- Start Menu -->
+    <section id="menu" class="menu section">
+      <div class="container">
+        <h2>Our Special Dishes</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        <div class="dishes"></div>
+      </div>
+    </section>
+    <!-- End Menu -->
+    <!-- Welcome Start -->
+    <section id="welcome" class="welcome section">
+      <div class="container flex content-between center-y">
+        <div class="content">
+          <h2>Welcome to Our Restaurant</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+          <div class="btns">
+            <a class="btn secondary">Menu</a>
+            <a class="btn primary">Book a table</a>
+          </div>
+        </div>
+        <div class="img-bg">
+          <img class="special" src="imgs/dish-1.png" alt="Special Dish" width="719">
+          <img class="leaf leaf-1" src="imgs/leaf-1.png">
+          <img class="leaf leaf-2" src="imgs/leaf-2.png">
+          <img class="leaf leaf-3" src="imgs/leaf-3.png">
+          <img class="leaf leaf-4" src="imgs/leaf-4.png">
+        </div>
+      </div>
+    </section>
+    <!-- Welcome End -->
+    <!-- Chef Start -->
+    <section id="chef" class="chef container flex content-between center-y section">
+      <div class="content">
+        <h2>Our Expects Chef</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+        <div class="tips">
+          <p>Lorem ipsum dolor sit amet, consectetur</p>
+          <p>Lorem ipsum dolor sit amet, consectetur</p>
+          <p>Lorem ipsum dolor sit amet, consectetur</p>
+          <p>Lorem ipsum dolor sit amet, consectetur</p>
+          <p>Lorem ipsum dolor sit amet, consectetur</p>
+          <p>Lorem ipsum dolor sit amet, consectetur</p>
+        </div>
+        <div class="btns">
+          <a class="btn secondary">Menu</a>
+          <a class="btn primary">Book a table</a>
+        </div>
+      </div>
+      <img src="imgs/chef-1.png" alt="Our Expert Chef" width="507">
+    </section>
+    <!-- Chef End -->
+    <!-- Ratings Start -->
+    <section id="ratings" class="ratings section">
+      <div class="container">
+        <h2>Our Happy Customers</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        <div class="content flex no-shrink"></div>
+        <div class="dots flex center-x gap-1"></div>
+      </div>
+    </section>
+    <!-- Ratings End -->
+    <!-- Subscrive Start -->
+    <div id="subscribe" class="subscribe section-sm">
+      <div class="container flex-col center-y">
+        <h2>Get Our Promo Code by Subscribing To our Newsletter</h3>
+          <form action="">
+            <div class="email-wrapper">
+              <input id="email" name="email" placeholder="Enter your email">
+            </div>
+            <input type="submit" value="Subscribe">
+          </form>
+      </div>
+    </div>
+    <!-- Subscrive End -->
+  </main>
+  <footer id="footer" class="pg-footer container section-sm">
+    <div class="wrapper flex gap-3">
+      <div class="info">
+        <span class="logo flex">
+          <object type="image/svg+xml" data="imgs/icon.svg" width="48" height="48"></object>
+          <h3 id="app-name">Restaurant</h3>
+        </span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          .Learn more</p>
+        <div class="opening-hours">
+          <h6>OPENING HOURS</h6>
+          <table>
+            <tr>
+              <th>Monday - Friday</th>
+              <th>Saturday</th>
+              <th>Sunday</th>
+            </tr>
+            <tr>
+              <td>8:00 am to 9:00 pm</td>
+              <td>8:00 am to 9:00 pm</td>
+              <td>CLOSED</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="links flex wrap">
+        <nav class="flex wrap">
+          <ul class="nav-list">
+            <h6>Navigation</h6>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#ratings">About us</a></li>
+            <li><a href="#subscribe">Contact us</a></li>
+            <li><a href="#menu">Main dishes</a></li>
+          </ul>
+          <ul class="dish-list">
+            <h6>DISHES</h6>
+            <li><a href="#menu">Fish & Viggies</a></li>
+            <li><a href="#menu">Tofu Chili</a></li>
+            <li><a href="#menu">Egg & Cocumber</a></li>
+            <li><a href="#menu">Lumpia w/Suace</a></li>
+          </ul>
+        </nav>
+        <div class="sm-links flex start-y gap-1 no-shrink">
+          <a href="#">
+            <svg viewBox="0 0 19 19" width="25">
+              <use href="#facebook" />
+            </svg>
+          </a>
+          <a href="#">
+            <svg viewBox="0 0 24 24" width="25">
+              <use href="#instagram" />
+            </svg>
+          </a>
+          <a href="#">
+            <svg viewBox="0 0 18 18" width="25">
+              <use href="#twitter" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="copy-right flex content-between wrap">
+      <p>&copy; 2022 Restaurants. All Right Reserved. Designed by Isaac</p>
+      <div class="terms-privacy">
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SVG Definitions -->
+  <svg aria-hidden="true" id="svgdefs" style="display: none;" version="2" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <symbol id="app-icon" fill="none">
+        <path d="M15.286 38.072a9.643 9.643 0 1 0 0-19.286 9.643 9.643 0 0 0 0 19.286Z" stroke="url(#a)"
+          stroke-width="3.571" />
+        <path
+          d="M.003 30.714Q0 30.893 0 31.072C0 44.287 10.713 55 23.929 55s23.928-10.713 23.928-23.928q0-.18-.002-.358z"
+          fill="url(#b)" />
+        <path d="M35.643 24.5a4.286 4.286 0 1 0 0-8.571 4.286 4.286 0 0 0 0 8.571Z" stroke="#EAA427"
+          stroke-width="2.143" />
+        <path d="M27.786 10.214a4.286 4.286 0 1 0 0-8.571 4.286 4.286 0 0 0 0 8.571Z" stroke="#EA7727"
+          stroke-width="2.143" />
+        <defs>
+          <linearGradient id="a" x1="7.429" y1="20.214" x2="22.429" y2="37.714" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EA6D27" />
+            <stop offset="1" stop-color="#EAA827" />
+          </linearGradient>
+          <linearGradient id="b" x1="6.429" y1="30.714" x2="35" y2="46.429" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FF9400" />
+            <stop offset="1" stop-color="#EA6D27" />
+          </linearGradient>
+        </defs>
+      </symbol>
+      <symbol id="facebook">
+        <path style="transform: translateY(2px);"
+          d="M7.2 16V8.5h-2V5.8h2V3.5C7.2 1.7 8.4 0 11.1 0c1.1 0 1.9.1 1.9.1l-.1 2.5h-1.7c-1 0-1.1.4-1.1 1.2v2H13l-.1 2.7h-2.8V16z" />
+      </symbol>
+      <symbol id="instagram">
+        <path fill-rule="evenodd"
+          d="M8 2h8a6 6 0 0 1 6 6v8a6 6 0 0 1-6 6H8a6 6 0 0 1-6-6V8a6 6 0 0 1 6-6m0 2a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V8a4 4 0 0 0-4-4zm4 13a5 5 0 1 1 0-10 5 5 0 0 1 0 10m0-2a3 3 0 1 0 0-6 3 3 0 0 0 0 6m5-7a1 1 0 1 1 0-2 1 1 0 0 1 0 2" />
+      </symbol>
+      <symbol id="twitter">
+        <path
+          d="M17 3.236a7 7 0 0 1-2.007.539 3.47 3.47 0 0 0 1.532-1.919 6.9 6.9 0 0 1-2.211.841 3.47 3.47 0 0 0-2.545-1.1A3.48 3.48 0 0 0 8.285 5.08c0 .27.033.54.086.799a9.9 9.9 0 0 1-7.184-3.646 3.46 3.46 0 0 0-.475 1.759c0 1.208.615 2.275 1.553 2.901A3.5 3.5 0 0 1 .69 6.451v.043a3.485 3.485 0 0 0 2.794 3.419 3.7 3.7 0 0 1-.917.118c-.226 0-.442-.021-.657-.054a3.49 3.49 0 0 0 3.257 2.417 6.98 6.98 0 0 1-4.326 1.488c-.291 0-.561-.01-.841-.042a9.85 9.85 0 0 0 5.351 1.564c6.407 0 9.913-5.307 9.913-9.912 0-.152 0-.302-.01-.454A7.5 7.5 0 0 0 17 3.236m-2.737 2.255c0 3.701-2.765 8.912-8.913 8.912q-.739 0-1.458-.118a8 8 0 0 0 1.891-1.104 1.001 1.001 0 0 0-.596-1.787 2.5 2.5 0 0 1-1.467-.509l.012-.003a1 1 0 0 0-.049-1.949 2.46 2.46 0 0 1-1.559-1.046l.104.005h.038A1 1 0 0 0 2.82 6.06a2.48 2.48 0 0 1-1.098-1.841 10.94 10.94 0 0 0 6.649 2.659 1 1 0 0 0 .979-1.203 3 3 0 0 1-.066-.595 2.486 2.486 0 0 1 2.484-2.483c.698 0 1.342.278 1.815.784a1 1 0 0 0 .417.266 1 1 0 0 0 .373.914 1 1 0 0 0-.119.544c.01.129.009.257.009.386" />
+      </symbol>
+      <symbol id="star">
+        <path
+          d="M8.094 1.563 6.063 5.719l-4.594.656C.656 6.5.344 7.5.937 8.094l3.282 3.219-.782 4.53c-.124.813.75 1.438 1.47 1.063L9 14.75l4.063 2.156c.718.375 1.593-.25 1.468-1.062l-.781-4.531 3.281-3.22c.594-.593.282-1.593-.531-1.718l-4.562-.656-2.063-4.156c-.344-.72-1.406-.75-1.781 0" />
+      </symbol>
+      <symbol id="next-icon">
+        <path d="m6.8 23.7-1.4-1.4L15.7 12 5.4 1.7 6.8.3 18.5 12z" />
+      </symbol>
+    </defs>
+  </svg>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+[
+  {
+    "avatar": "/imgs/avatar-1.png",
+    "stars": 5,
+    "comment": "Lorem ipsum dolor sit amet consectetur. Tortor massa nisl quam sit. Vitae congue ultrices neque penatibus mi in quisque. Leo in cursus enim magnis ante. Proin iaculis platea ipsum sagittis ac eu aliquam quis. Ornare tincidunt tempus semper",
+    "username": "Ama Ampomah",
+    "job": "CEO & Founder Inc"
+  },
+  {
+    "avatar": "/imgs/avatar-2.png",
+    "stars": 4,
+    "comment": "Lorem ipsum dolor sit amet consectetur. Tortor massa nisl quam sit. Vitae congue ultrices neque penatibus mi in quisque. Leo in cursus enim magnis ante. Proin iaculis platea ipsum sagittis ac eu aliquam quis. Ornare tincidunt tempus semper",
+    "username": "Kweku Annan",
+    "job": "CEO & Founder Inc"
+  },
+  {
+    "avatar": "/imgs/avatar-3.png",
+    "stars": 5,
+    "comment": "Lorem ipsum dolor sit amet consectetur. Tortor massa nisl quam sit. Vitae congue ultrices neque penatibus mi in quisque. Leo in cursus enim magnis ante. Proin iaculis platea ipsum sagittis ac eu aliquam quis. Ornare tincidunt tempus semper",
+    "username": "Ama Ampomah",
+    "job": "CEO & Founder Inc"
+  },
+  {
+    "avatar": "/imgs/avatar-4.png",
+    "stars": 5,
+    "comment": "Lorem ipsum dolor sit amet consectetur. Tortor massa nisl quam sit. Vitae congue ultrices neque penatibus mi in quisque. Leo in cursus enim magnis ante. Proin iaculis platea ipsum sagittis ac eu aliquam quis. Ornare tincidunt tempus semper",
+    "username": "Ama Ampomah",
+    "job": "CEO & Founder Inc"
+  },
+  {
+    "avatar": "/imgs/avatar-5.png",
+    "stars": 5,
+    "comment": "Lorem ipsum dolor sit amet consectetur. Tortor massa nisl quam sit. Vitae congue ultrices neque penatibus mi in quisque. Leo in cursus enim magnis ante. Proin iaculis platea ipsum sagittis ac eu aliquam quis. Ornare tincidunt tempus semper",
+    "username": "Ama Ampomah",
+    "job": "CEO & Founder Inc"
+  }
+]
