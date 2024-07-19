@@ -222,6 +222,7 @@ a {
 @media (max-width: 991px) {
   .hero {
     flex-wrap: wrap;
+    padding-bottom: 6rem !important;
   }
   .hero > * {
     width: 100%;
@@ -254,7 +255,7 @@ a {
   }
   .hero .wrapper {
     margin-inline: 0.5rem;
-    bottom: 2rem;
+    bottom: 3rem;
     transform: translateX(52%);
     text-align: center;
 
